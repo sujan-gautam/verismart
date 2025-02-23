@@ -1,0 +1,83 @@
+/* Custom styles to complement Bootstrap dark theme */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.bi-robot {
+    margin-right: 10px;
+}
+
+/* Animation for loading state */
+.spinner-border {
+    margin-right: 8px;
+}
+
+/* Response container styling */
+#responseContainer {
+    transition: all 0.3s ease;
+}
+
+#response {
+    white-space: pre-wrap;
+}
+
+/* Error message styling */
+#errorContainer {
+    transition: all 0.3s ease;
+}
+
+/* Confidence styling */
+.model-confidences {
+    margin-top: 1rem;
+}
+
+.model-confidence {
+    margin-bottom: 1rem;
+}
+
+.model-name {
+    display: inline-block;
+    width: 100px;
+    font-weight: 500;
+}
+
+.confidence-value {
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: var(--bs-secondary);
+}
+
+.progress {
+    display: inline-flex;
+    width: 200px;
+    margin: 0 10px;
+    background-color: var(--bs-dark);
+}
+
+#confidenceBar {
+    transition: width 0.3s ease;
+}
+
+/* Confidence color classes */
+.confidence-high {
+    color: var(--bs-success);
+}
+
+.confidence-medium {
+    color: var(--bs-warning);
+}
+
+.confidence-low {
+    color: var(--bs-danger);
+}

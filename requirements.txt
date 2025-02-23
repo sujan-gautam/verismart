@@ -1,0 +1,8 @@
+flask
+flask-cors
+google-generativeai
+openai
+transformers
+python-dotenv
+requests
+aiohttp 
